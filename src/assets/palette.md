@@ -30,4 +30,4 @@ Pickled Pink – Hex: #E0457B
 Nuclear Sunset – Hex: #ED9B33
 Vapor Blue – Hex: #5461C8
 Mystic Iris – Hex: #7A93DC
-Midnight Dreams – Hex: #051C2C​
+Midnight Dreams – Hex: #051C2C
