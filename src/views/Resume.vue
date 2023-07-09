@@ -3,9 +3,11 @@ import Education from '../components/resume/Education.vue';
 import Skills from '../components/resume/Skills.vue';
 import Work from '../components/resume/Work.vue';
 
+import ResumeTitle from '../components/resume/typography/ResumeTitle.vue';
+
 export default {
     components: {
-        Education, Skills, Work
+        Education, Skills, Work, ResumeTitle
     },
     name: 'Curriculum',
     mounted() {
@@ -24,7 +26,7 @@ export default {
                 <!-- Work Section-->
                 <section>
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h2 class="text-light fw-bolder mb-0">Esperienze</h2>
+                        <ResumeTitle class="mb-0" title="Esperienze" />
                         <!-- Link al cv-->
                         <a class="btn btn-primary px-4 py-3"
                             href="https://www.canva.com/design/DAE94LaqBAQ/NkxIeJRMhdnLVBF7h952dA/view?utm_content=DAE94LaqBAQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
