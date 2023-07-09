@@ -3,27 +3,24 @@ export default {
     data() {
         //ritorna i dati dell'oggetto del componente. E' settata a true all'inizio, è responsabile di mostrare il banner o meno
         return {
-            showBanner: !(this.cookiesAccepted || this.cookiesRejected)
+            showBanner: false,
         }
     },
     computed: {
         // le proprietà computed controllano se nel localStorage esistono cookiesAccepted o cookiesRejected
-        cookiesAccepted() {
-            return localStorage.getItem('cookiesAccepted');
+        userClickedOnCookiesBanner() {
+            return localStorage.getItem('userClickedOnCookiesBanner');
+
         },
-        cookiesRejected() {
-            return localStorage.getItem('cookiesRejected');
-        }
     },
     methods: {
-        acceptCookies() {
-            localStorage.setItem('cookiesAccepted', true);
-            this.showBanner = false;
-        },
-        rejectCookies() {
-            localStorage.setItem('cookiesRejected', true);
+        onCookieClick() {
+            localStorage.setItem('userClickedOnCookiesBanner', true);
             this.showBanner = false;
         }
+    },
+    created() {
+        this.showBanner = !this.userClickedOnCookiesBanner;
     }
 }
 </script>
@@ -32,8 +29,8 @@ export default {
 <template>
     <div v-if="showBanner" class="cookie-banner">
         <p>We use cookies to improve your experience. By using our site, you agree to our use of cookies.</p>
-        <button @click="acceptCookies">Accept</button>
-        <button @click="rejectCookies">Reject</button>
+        <button @click="onCookieClick">Accept</button>
+        <button @click="onCookieClick">Reject</button>
     </div>
 </template>
 
