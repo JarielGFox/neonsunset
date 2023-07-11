@@ -1,8 +1,15 @@
 <script>
+import NavItem from './navbar/NavItem.vue';
+
+export default {
+    components: {
+        NavItem
+    }
+}
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
         <div class="container px-5">
             <router-link :to="{ name: 'home' }" class="navbar-brand">
                 <span class="fw-bolder text-sea">Giovanni Crudele</span>
@@ -13,22 +20,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                    <li class="nav-item">
-                        <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
-                    </li>
-                    <li class="nav-item">
-                        <router-link :to="{ name: 'resume' }" class="nav-link">Competenze</router-link>
-                    </li>
-                    <li class="nav-item">
-                        <router-link :to="{ name: 'projects' }" class="nav-link">Progetti</router-link>
-                    </li>
-                    <li class="nav-item">
-                        <router-link :to="{ name: 'contacts' }" class="nav-link">Contatti</router-link>
-                    </li>
+                    <NavItem to="/">Home</NavItem>
+                    <NavItem to="/resume">Competenze</NavItem>
+                    <NavItem to="/projects">Progetti</NavItem>
+                    <NavItem to="/contacts">Contatti</NavItem>
                 </ul>
             </div>
         </div>
     </nav>
 </template>
 
-<style></style>
+<style scoped>
+nav {
+    background-color: #1a0d2c;
+}
+</style>
