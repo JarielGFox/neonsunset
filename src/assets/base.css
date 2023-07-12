@@ -65,11 +65,13 @@ body {
   background: transparent;
 }
 
-.btn-cta:hover {
+.btn-cta:hover,
+.btn-cta:active {
   transform: scale(1.05);
 }
 
-.btn-cta:hover:before {
+.btn-cta:hover:before,
+.btn-cta:active:before {
   opacity: 1;
 }
 
@@ -108,4 +110,8 @@ body {
 
 .text-sea {
   color: #155a99;
+}
+
+.text-pink-light {
+  color: #f1dada;
 }

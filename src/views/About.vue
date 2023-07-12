@@ -13,24 +13,24 @@ export default {
 </script>
 
 <template>
-  <section class="bg-light py-5">
+  <section class="py-5">
     <div class="container px-5">
       <div class="row gx-5 justify-content-center">
         <div class="col-xxl-8">
-          <div class="text-center my-5">
+          <div class="text-center text-pink-light my-5">
             <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
-            <p class="lead fw-light mb-4">Giovanni Crudele - Where passion meets code.</p>
-            <p class="text-muted">Web developer junior motivato e con capacità nel creare soluzioni innovative. Possiedo
+            <p class="lead fw-light mb-4">Giovanni Crudele - <em>Where passion meets code.</em></p>
+            <p class="text-pink-light">Web developer junior motivato e con capacità nel creare soluzioni innovative.
+              Possiedo
               una solida base nello sviluppo front-end e back-end, sfruttando competenze in tecnologie <span
                 class="text-pink"><strong> PHP, MySQL, Laravel, HTML5, CSS3, JavaScript ES6 e Vue.js. </strong></span>
               Dimostro abilità
               nel gestire progetti complessi e mi impegno per l'apprendimento continuo nel campo dello sviluppo web.
               Dotato di conoscenza approfondita della lingua Inglese per poter lavorare nel mercato internazionale.</p>
             <div class="d-flex justify-content-center fs-2 gap-4">
-              <a class="text-primary" href="https://linkedin.com/in/giocrudele" target="_blank"><i
+              <a class="text-sea" href="https://linkedin.com/in/giocrudele" target="_blank"><i
                   class="bi bi-linkedin"></i></a>
-              <a class="text-primary" href="https://github.com/JarielGFox" target="_blank"><i
-                  class="bi bi-github"></i></a>
+              <a class="text-sea" href="https://github.com/JarielGFox" target="_blank"><i class="bi bi-github"></i></a>
             </div>
           </div>
         </div>

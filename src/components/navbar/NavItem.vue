@@ -11,7 +11,7 @@ export default {
 
 <template>
     <li class="nav-item">
-        <router-link :to="to" class="nav-link text-light">
+        <router-link :to="to" class="nav-link text-pink-light">
             <slot />
         </router-link>
     </li>

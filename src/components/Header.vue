@@ -11,14 +11,16 @@
                         <div class="badge badge-sea text-white mb-4">
                             <div class="text-uppercase">Junior Web Developer &middot; Full Stack </div>
                         </div>
-                        <div class="fs-3 fw-light text-muted-custome">I can help your business to</div>
-                        <h1 class="display-3 fw-bolder mb-5"><span class="h1-custom d-inline">Get online and grow
-                                fast</span></h1>
-                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                        <div class="fs-3 fw-light text-pink-light">Coding with <span
+                                class="text-pink"><strong>passion</strong></span> to
+                        </div>
+                        <h1 class="display-3 fw-bolder mb-5"><span class="h1-custom d-inline">fuel your digital
+                                journey</span></h1>
+                        <div class="grid gap-3 justify-content-sm-stretch justify-content-xxl-start mb-3">
                             <router-link :to="{ name: 'resume' }"
-                                class="btn btn-cta btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder">Competenze</router-link>
+                                class="btn btn-cta btn-lg px-5 py-3 fs-6 fw-bolder mb-3 mb-sm-3 g-col-sm-6 g-col-sm-12">Competenze</router-link>
                             <router-link :to="{ name: 'projects' }"
-                                class="btn btn-cta btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder">Progetti</router-link>
+                                class="btn btn-cta btn-lg px-5 py-3 fs-6 fw-bolder g-col-sm-6 g-col-sm-12">Progetti</router-link>
                         </div>
                     </div>
                 </div>
