@@ -30,7 +30,7 @@
                         <div class="profile bg-gradient-primary-to-secondary">
                             <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
                             <!-- Watch a tutorial on how to do this on YouTube (link)-->
-                            <img class="profile-img" src="../assets/img/synthlaptop.png" width="500" height="500"
+                            <img class="profile-img img-fluid" src="../assets/img/synthlaptop.png" width="500" height="500"
                                 alt="..." />
                         </div>
                     </div>

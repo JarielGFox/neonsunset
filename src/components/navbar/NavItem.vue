@@ -11,10 +11,15 @@ export default {
 
 <template>
     <li class="nav-item">
-        <router-link :to="to" class="nav-link text-pink-light">
+        <router-link :to="to" class="nav-item-custom nav-link text-pink-light">
             <slot />
         </router-link>
     </li>
 </template>
 
-<style></style>
+<style scoped>
+.nav-item-custom:hover,
+.nav-item-custom:active {
+    color: #155a99;
+}
+</style>

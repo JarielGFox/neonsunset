@@ -27,10 +27,11 @@ export default {
               Dimostro abilità
               nel gestire progetti complessi e mi impegno per l'apprendimento continuo nel campo dello sviluppo web.
               Dotato di conoscenza approfondita della lingua Inglese per poter lavorare nel mercato internazionale.</p>
-            <div class="d-flex justify-content-center fs-2 gap-4">
-              <a class="text-sea" href="https://linkedin.com/in/giocrudele" target="_blank"><i
+            <div class="d-flex w-100 gap-3 justify-content-center fs-2">
+              <a class="text-sea d-block" href="https://linkedin.com/in/giocrudele" target="_blank"><i
                   class="bi bi-linkedin"></i></a>
-              <a class="text-sea" href="https://github.com/JarielGFox" target="_blank"><i class="bi bi-github"></i></a>
+              <a class="text-sea d-block" href="https://github.com/JarielGFox" target="_blank"><i
+                  class="bi bi-github"></i></a>
             </div>
           </div>
         </div>
