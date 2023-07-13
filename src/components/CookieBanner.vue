@@ -28,9 +28,11 @@ export default {
 
 <template>
     <div v-if="showBanner" class="cookie-banner">
-        <p>We use cookies to improve your experience. By using our site, you agree to our use of cookies.</p>
-        <button @click="onCookieClick">Accept</button>
-        <button @click="onCookieClick">Reject</button>
+        <p>Questo sito utilizzia cookie per finalità di navigazione. Il rifiuto del consenso può rendere non
+            disponibili alcune delle relative funzioni. Premi il pulsante “Accetta” per acconsentire o premi il pulsante
+            “Rifiuta” per continuare senza accettare.</p>
+        <button @click="onCookieClick">Accetta</button>
+        <button @click="onCookieClick">Rifiuta</button>
     </div>
 </template>
 
@@ -38,22 +40,26 @@ export default {
 /* voglio applicare lo stile solo a questo componente */
 
 .cookie-banner {
-  position: fixed;
-  bottom: 100px;
-  left: 0;
-  width: 100%;
-  background: #f9f9f9;
-  padding: 20px;
-  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  background-color: azure;
-  border: 1px solid black;
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    background: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    background-color: #155a99;
+    border: 1px solid black;
+    color: #f1dada;
 }
 
 button {
     padding: 8px;
-    background-color: darkred;
-    color: whitesmoke;
+    background-color: #ffffff;
+    color: #494949;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
     border-radius: 10%;
     outline: none;
     margin-right: 10px;
