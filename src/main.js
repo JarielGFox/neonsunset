@@ -1,7 +1,9 @@
-import './assets/main.css'
-import '../node_modules/bootstrap/'
-import './assets/main.css'
-import 'bootstrap-icons/font/bootstrap-icons.css'
+import './assets/main.css';
+import '../node_modules/bootstrap/';
+import './assets/main.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
+import axios from 'axios';
 
 import { createApp } from 'vue'
 import App from './App.vue'
