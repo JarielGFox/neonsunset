@@ -15,23 +15,25 @@ export default {
     },
     methods: {
         async submitForm() {
+            console.log('Submitting form...'); // Add this line
             try {
-                const response = await axios.post('src/php/mail.php', {
-                    name: this.name,
-                    email: this.email,
-                    phone: this.phone,
-                    message: this.message
-                });
+                const formData = new FormData();
+                formData.append('name', this.name);
+                formData.append('email', this.email);
+                formData.append('phone', this.phone);
+                formData.append('message', this.message);
+
+                const response = await axios.post('http://localhost:8000/src/php/mail.php', formData);
+                console.log('Response received:', response); // Add this line
+
                 if (response.data === 'Message has been sent') {
                     this.submitSuccess = true;
                 } else {
                     this.submitError = true;
-                    this.errorMessage = 'Error: ' + response.data;
                 }
             } catch (error) {
-                console.error(error);
+                console.error('Error occurred:', error); // Modify this line
                 this.submitError = true;
-                this.errorMessage = 'Error sending message!';
             }
         }
     }
