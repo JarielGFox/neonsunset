@@ -1,10 +1,10 @@
 <script>
 export default {
-        name: 'Progetti',
-        mounted() {
-            document.title = 'Progetti';
-        }
+    name: 'Progetti',
+    mounted() {
+        document.title = 'Progetti';
     }
+}
 </script>
 
 <template>
@@ -12,7 +12,7 @@ export default {
     <section class="py-5">
         <div class="container px-5 mb-5">
             <div class="text-center mb-5">
-                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-pink-light d-inline">Progetti</span></h1>
             </div>
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-11 col-xl-9 col-xxl-8">
@@ -22,7 +22,10 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="p-5">
                                     <h2 class="fw-bolder">Stopwatch JS</h2>
-                                    <p>Una progressive web app, costituita da logiche JavaScript, struttura HTML e librerie CSS Bootstrap. Può essere utilizzata comodamente da Smartphone per misurare il proprio tempo in competizioni sportive o per giochi da tavolo che utilizzano la misurazione del tempo.</p>
+                                    <p>Una progressive web app, costituita da logiche JavaScript, struttura HTML e librerie
+                                        CSS Bootstrap. Può essere utilizzata comodamente da Smartphone per misurare il
+                                        proprio tempo in competizioni sportive o per giochi da tavolo che utilizzano la
+                                        misurazione del tempo.</p>
                                 </div>
                                 <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                             </div>
@@ -34,7 +37,10 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="p-5">
                                     <h2 class="fw-bolder">Parla-m(A)i</h2>
-                                    <p>Una progressive web app di un assistente virtuale a cui chiedere domande che hanno necessità di risposte semplici ed immediate. Utilizza l'API (application programming interface) di OpenAI. Oltre ad interagirvi via chat, potete anche utilizzare il microfono del vostro dispositivo, sia mobile che desktop.</p>
+                                    <p>Una progressive web app di un assistente virtuale a cui chiedere domande che hanno
+                                        necessità di risposte semplici ed immediate. Utilizza l'API (application programming
+                                        interface) di OpenAI. Oltre ad interagirvi via chat, potete anche utilizzare il
+                                        microfono del vostro dispositivo, sia mobile che desktop.</p>
                                 </div>
                                 <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                             </div>
@@ -46,7 +52,13 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="p-5">
                                     <h2 class="fw-bolder">Presto.it (per Aulab)</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dignissimos. Nesciunt, pariatur nemo? Totam blanditiis ipsum architecto molestias quisquam eius, aspernatur accusamus omnis ipsam voluptas distinctio doloribus possimus quos ab quae vero provident modi assumenda! Totam, in quisquam? Commodi quam sequi consectetur! Quidem commodi provident eligendi eveniet pariatur omnis dolorem.</p>
+                                    <p> Presto.it è un sito di annunci di compravendita. Grazie all'implementazione
+                                        di un algoritmo di Google ed un pannello di controllo dedicato per
+                                        la figura del "revisore" (una persona che potrà collaborare con lo staff del
+                                        portale) si potrà evitare l'inserimento di immagini a contenuto
+                                        inappropriato. Presto.it è stata sviluppato principalmente con Laravel,
+                                        framework PHP. Per la dinamicità delle pagine è stato implementato JavaScript
+                                        e l'uso di Laravel Livewire, oltre all'utilizzo di fogli di stile CSS. </p>
                                 </div>
                                 <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                             </div>
@@ -58,7 +70,12 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="p-5">
                                     <h2 class="fw-bolder">Indovina AI</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dignissimos. Nesciunt, pariatur nemo? Totam blanditiis ipsum architecto molestias quisquam eius, aspernatur accusamus omnis ipsam voluptas distinctio doloribus possimus quos ab quae vero provident modi assumenda! Totam, in quisquam? Commodi quam sequi consectetur! Quidem commodi provident eligendi eveniet pariatur omnis dolorem.</p>
+                                    <p> Altro progetto che utilizza l'API (application programming
+                                        interface) di OpenAI. Nato da una challenge di un'edizione di una coding-week di
+                                        Boolean, questa simil progressive web app restituirà una celebre frase o
+                                        caratteristica di un personaggio reale o di fantasia e l'utente dovrà provare ad
+                                        indovinare di chi si tratta. Ci sono massimo 3 tentativi di risposta per poter
+                                        indovinare il personaggio famoso. </p>
                                 </div>
                                 <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                             </div>
@@ -70,11 +87,14 @@ export default {
     </section>
 
     <!-- Call to action section-->
-    <section class="py-5 bg-secondary bg-gradient text-white">
-        <div class="container px-5 my-5">
+    <section class="py-5">
+        <div class="container px-5">
             <div class="text-center">
-                <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
+                <h4 class="display-4 fw-bolder mb-4 text-pink-light">Interessatə ?</h4>
+                <h4 class="display-4 fw-bolder mb-4 text-pink-light">Collaboriamo insieme allora!</h4>
+                <router-link :to="{ name: 'contacts' }"
+                    class="btn btn-cta btn-lg px-5 py-3 fs-6 fw-bolder mb-3 mb-sm-3">Contattami
+                </router-link>
             </div>
         </div>
     </section>
@@ -82,12 +102,13 @@ export default {
 
 <style>
 @media (max-width: 768px) {
-  .d-flex {
-    flex-direction: column;
-  }
-  .img-fluid {
-    width: 100%;
-    height: auto;
-  }
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
 }
 </style>

@@ -15,7 +15,8 @@ export default {
     },
     methods: {
         async submitForm() {
-            console.log('Submitting form...'); // Add this line
+            // post form submitted
+            console.log('Submitting form...');
             try {
                 const formData = new FormData();
                 formData.append('name', this.name);
@@ -24,7 +25,8 @@ export default {
                 formData.append('message', this.message);
 
                 const response = await axios.post('http://localhost:8000/src/php/mail.php', formData);
-                console.log('Response received:', response); // Add this line
+                //responso a buon fine
+                console.log('Response received:', response);
 
                 if (response.data === 'Message has been sent') {
                     this.submitSuccess = true;
@@ -32,7 +34,8 @@ export default {
                     this.submitError = true;
                 }
             } catch (error) {
-                console.error('Error occurred:', error); // Modify this line
+                // messaggio di errore
+                console.error('Error:', error);
                 this.submitError = true;
             }
         }
