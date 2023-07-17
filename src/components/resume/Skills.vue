@@ -11,7 +11,7 @@ export default {
     <section>
         <ResumeTitle class="mb-4" title="Competenze" />
         <!-- Skillset Card-->
-        <div class="card shadow border-0 rounded-4 mb-5">
+        <div class="card shadow border-0 rounded-4 mb-5 fs-5">
             <div class="card-body p-5">
                 <!-- Professional skills list-->
                 <div class="mb-5">
@@ -64,24 +64,42 @@ export default {
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                         <div class="col mb-4 mb-md-0">
-                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div>
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img src="src\assets\img\html5.svg" class="me-1" width="30" height="30" />
+                                HTML
+                            </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
-                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div>
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img src="src\assets\img\css3.svg" class="me-1" width="30" height="30" />
+                                CSS
+                            </div>
                         </div>
                         <div class="col">
-                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div>
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img src="src\assets\img\js.svg" class="me-1" width="30" height="30" />
+                                JavaScript
+                            </div>
                         </div>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3">
                         <div class="col mb-4 mb-md-0">
-                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">SASS</div>
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img src="src\assets\img\sass.svg" class="me-1" width="30" height="30" />
+                                SASS
+                            </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
-                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">PHP</div>
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img src="src\assets\img\php.svg" class="me-1" width="30" height="30" />
+                                PHP
+                            </div>
                         </div>
                         <div class="col">
-                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">MySQL</div>
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img src="src\assets\img\mysql.svg" class="me-1" width="30" height="30" />
+                                MySQL
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -94,15 +112,22 @@ export default {
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                         <div class="col mb-4 mb-md-0">
-                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Vue.js</div>
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img src="src\assets\img\Vue.svg" class="me-1" width="30" height="30" />
+                                Vue.js
+                            </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
-                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Laravel</div>
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img src="src\assets\img\Laravel.svg" class="me-1" width="30" height="30" />
+                                Laravel
+                            </div>
                         </div>
-                    </div>
-                    <div class="row row-cols-1 row-cols-md-3">
                         <div class="col mb-4 mb-md-0">
-                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Bootstrap</div>
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img src="src\assets\img\Bootstrap.svg" class="me-1" width="30" height="30" />
+                                Bootstrap
+                            </div>
                         </div>
                     </div>
                 </div>
