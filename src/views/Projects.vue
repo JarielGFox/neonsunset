@@ -25,9 +25,10 @@ export default {
                                     <p>Una progressive web app, costituita da logiche JavaScript, struttura HTML e librerie
                                         CSS Bootstrap. Può essere utilizzata comodamente da Smartphone per misurare il
                                         proprio tempo in competizioni sportive o per giochi da tavolo che utilizzano la
-                                        misurazione del tempo.</p>
+                                        misurazione del tempo. <span class="text-pink fw-bold">Provalo qui -></span> <a
+                                            href="https://neonsunset.altervista.org/pwa/stopwatch/">Stopwatch</a></p>
                                 </div>
-                                <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                <img class="img-fluid" src="../assets/img/stopwatch.jpg" alt="Stopwatch JS" />
                             </div>
                         </div>
                     </div>
@@ -90,7 +91,7 @@ export default {
     <section class="py-5">
         <div class="container px-5">
             <div class="text-center">
-                <h4 class="display-4 fw-bolder mb-4 text-pink-light">Interessatə ?</h4>
+                <h4 class="display-4 fw-bolder mb-4 text-pink-light">Vuoi saperne di più?</h4>
                 <h4 class="display-4 fw-bolder mb-4 text-pink-light">Collaboriamo insieme allora!</h4>
                 <router-link :to="{ name: 'contacts' }"
                     class="btn btn-cta btn-lg px-5 py-3 fs-6 fw-bolder mb-3 mb-sm-3">Contattami

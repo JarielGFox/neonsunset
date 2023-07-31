@@ -21,12 +21,11 @@ export default {
             <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
             <p class="lead fw-light mb-4">Giovanni Crudele - <em>Where passion meets code.</em></p>
             <p class="text-pink-light">Web developer junior motivato e con capacità nel creare soluzioni innovative.
-              Possiedo
-              una solida base nello sviluppo front-end e back-end, sfruttando competenze in tecnologie <span
-                class="text-pink"><strong> PHP, MySQL, Laravel, HTML5, CSS3, JavaScript ES6 e Vue.js. </strong></span>
-              Dimostro abilità
-              nel gestire progetti complessi e mi impegno per l'apprendimento continuo nel campo dello sviluppo web.
-              Dotato di conoscenza approfondita della lingua Inglese per poter lavorare nel mercato internazionale.</p>
+              Possiedo una solida base nello sviluppo front-end e back-end, sfruttando competenze in tecnologie <span
+                class="text-pink"><strong> PHP, MySQL, Laravel, HTML5, CSS3, JavaScript ES6, Vue.js e React.
+                </strong></span> Dimostro abilità nel gestire progetti complessi e mi impegno per l'apprendimento continuo
+              nel campo dello sviluppo web. Dotato di conoscenza approfondita della lingua Inglese per poter lavorare nel
+              mercato internazionale.</p>
             <div class="d-flex w-100 gap-3 justify-content-center fs-2">
               <a class="text-sea d-block" href="https://linkedin.com/in/giocrudele" target="_blank"><i
                   class="bi bi-linkedin"></i></a>
