@@ -113,14 +113,20 @@ export default {
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img src="src\assets\img\Laravel.svg" class="me-1" width="30" height="30" />
+                                Laravel
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
                                 <img src="src\assets\img\Vue.svg" class="me-1" width="30" height="30" />
                                 Vue.js
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img src="src\assets\img\Laravel.svg" class="me-1" width="30" height="30" />
-                                Laravel
+                                <img src="src\assets\img\react.svg" class="me-1" width="30" height="30" />
+                                React
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">

@@ -26,7 +26,8 @@ export default {
                                         CSS Bootstrap. Può essere utilizzata comodamente da Smartphone per misurare il
                                         proprio tempo in competizioni sportive o per giochi da tavolo che utilizzano la
                                         misurazione del tempo. <span class="text-pink fw-bold">Provalo qui -></span> <a
-                                            href="https://neonsunset.altervista.org/pwa/stopwatch/">Stopwatch</a></p>
+                                            href="https://neonsunset.altervista.org/pwa/stopwatch/"
+                                            target="_blank">Stopwatch</a></p>
                                 </div>
                                 <img class="img-fluid" src="../assets/img/stopwatch.jpg" alt="Stopwatch JS" />
                             </div>
@@ -38,12 +39,22 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="p-5">
                                     <h2 class="fw-bolder">Parla-m(A)i</h2>
-                                    <p>Una progressive web app di un assistente virtuale a cui chiedere domande che hanno
-                                        necessità di risposte semplici ed immediate. Utilizza l'API (application programming
-                                        interface) di OpenAI. Oltre ad interagirvi via chat, potete anche utilizzare il
-                                        microfono del vostro dispositivo, sia mobile che desktop.</p>
+                                    <p>Una progressive web app con cui poter parlare ed interagire. Utilizza l'API
+                                        (application
+                                        programming interface) di OpenAI. Oltre ad interagirvi via chat, potete anche
+                                        utilizzare il microfono del vostro dispositivo, sia mobile che desktop. <span
+                                            class="text-pink fw-bold">Provala qui -></span> <a
+                                            href="https://neonsunset.altervista.org/pwa/parlaAI/"
+                                            target="_blank">Parla-m(A)i</a>
+
+                                    <p class="text-danger">ATTENZIONE: Serve necessariamente una
+                                        API KEY regolarmente acquistata sul sito di <a href="https://openai.com/"
+                                            target="_blank">Open
+                                            AI</a>. Inoltre al momento la app funziona solo su browser <strong>Google
+                                            Chrome</strong>.</p>
+                                    </p>
                                 </div>
-                                <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                <img class="img-fluid" src="../assets/img/parlaAI.jpg" alt="..." />
                             </div>
                         </div>
                     </div>
@@ -59,9 +70,13 @@ export default {
                                         portale) si potrà evitare l'inserimento di immagini a contenuto
                                         inappropriato. Presto.it è stata sviluppato principalmente con Laravel,
                                         framework PHP. Per la dinamicità delle pagine è stato implementato JavaScript
-                                        e l'uso di Laravel Livewire, oltre all'utilizzo di fogli di stile CSS. </p>
+                                        e l'uso di Laravel Livewire, oltre all'utilizzo di fogli di stile CSS.</p>
+                                    <p>
+                                        <span class="text-pink fw-bold">Visualizza codice -></span> <a
+                                            href="https://github.com/JarielGFox/presto.it" target="_blank">Presto.it</a>
+                                    </p>
                                 </div>
-                                <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                <img class="img-fluid" src="../assets/img/presto.jpg" alt="..." />
                             </div>
                         </div>
                     </div>
