@@ -24,7 +24,7 @@ export default {
                 formData.append('phone', this.phone);
                 formData.append('message', this.message);
 
-                const response = await axios.post('http://localhost:8000/src/php/mail.php', formData);
+                const response = await axios.post('http://localhost:8000/src/php/mail2.php', formData);
                 //responso a buon fine
                 console.log('Response received:', response);
 
