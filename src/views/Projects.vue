@@ -64,13 +64,13 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="p-5">
                                     <h2 class="fw-bolder">Presto.it (per Aulab)</h2>
-                                    <p> Presto.it è un sito di annunci di compravendita. Grazie all'implementazione
-                                        di un algoritmo di Google ed un pannello di controllo dedicato per
-                                        la figura del "revisore" (una persona che potrà collaborare con lo staff del
-                                        portale) si potrà evitare l'inserimento di immagini a contenuto
-                                        inappropriato. Presto.it è stata sviluppato principalmente con Laravel,
-                                        framework PHP. Per la dinamicità delle pagine è stato implementato JavaScript
-                                        e l'uso di Laravel Livewire, oltre all'utilizzo di fogli di stile CSS.</p>
+                                    <p> Presto.it è un sito di annunci. Grazie all'implementazione
+                                        di un algoritmo di Google ed un pannello dedicato alla figura del "revisore" (un
+                                        collaboratore dello staff) si potrà evitare l'inserimento di immagini a contenuto
+                                        inappropriato. Sviluppato con <strong>Laravel</strong>, framework PHP. Per la
+                                        dinamicità delle pagine
+                                        è stato implementato JavaScript e l'uso di Laravel Livewire, oltre all'utilizzo di
+                                        fogli di stile CSS.</p>
                                     <p>
                                         <span class="text-pink fw-bold">Visualizza codice -></span> <a
                                             href="https://github.com/JarielGFox/presto.it" target="_blank">Presto.it</a>

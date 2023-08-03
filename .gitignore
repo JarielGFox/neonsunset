@@ -30,3 +30,4 @@ vendor
 src/php/mail.php
 src/php/.env
 src/php/class/.env
+src/assets/mailconfig.md
