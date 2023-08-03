@@ -51,7 +51,7 @@ export default {
                                         API KEY regolarmente acquistata sul sito di <a href="https://openai.com/"
                                             target="_blank">Open
                                             AI</a>. Inoltre al momento la app funziona solo su browser <strong>Google
-                                            Chrome</strong>.</p>
+                                            Chrome e Microsoft Edge</strong>.</p>
                                     </p>
                                 </div>
                                 <img class="img-fluid" src="../assets/img/parlaAI.jpg" alt="..." />
@@ -85,15 +85,22 @@ export default {
                         <div class="card-body p-0">
                             <div class="d-flex align-items-center">
                                 <div class="p-5">
-                                    <h2 class="fw-bolder">Indovina AI</h2>
-                                    <p> Altro progetto che utilizza l'API (application programming
-                                        interface) di OpenAI. Nato da una challenge di un'edizione di una coding-week di
-                                        Boolean, questa simil progressive web app restituirà una celebre frase o
-                                        caratteristica di un personaggio reale o di fantasia e l'utente dovrà provare ad
-                                        indovinare di chi si tratta. Ci sono massimo 3 tentativi di risposta per poter
-                                        indovinare il personaggio famoso. </p>
+                                    <h2 class="fw-bolder">Previsioni del tempo</h2>
+                                    <p> Una semplice progressive web app che fornisce lo stato meteo della locazione
+                                        specifica (tramite sistema di geolocalizzazione) ed in base alle previsioni vigenti
+                                        vi fornisce qualche consiglio utile su come gestire il clima. La PWA sfrutta l'API
+                                        gratuita di <a href="https://openweathermap.org/"
+                                            target="_blank">OpenWeatherMap</a>. Full responsive sia da dispositivo fisso che
+                                        mobile.
+                                    </p>
+                                    <p>
+                                        <span class="text-pink fw-bold">Provala qui -></span>
+                                        <a href=" https://neonsunset.altervista.org/pwa/wforecast/" target="_blank">Weather
+                                            Forecast
+                                        </a>
+                                    </p>
                                 </div>
-                                <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                <img class="img-fluid" src="../assets/img/wforecast.jpg" alt="..." />
                             </div>
                         </div>
                     </div>
