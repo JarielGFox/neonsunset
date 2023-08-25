@@ -94,12 +94,11 @@ export default {
                     <div class="text-center text-danger mb-3">{{ errorMessage }}</div>
                 </div>
                 <!-- Submit Button-->
-                <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button>
+                <div class="d-grid"><button class="btn btn-success btn-lg" id="submitButton" type="submit">Submit</button>
                 </div>
             </form>
         </div>
     </div>
-
     <!-- Confirm Modal -->
     <confirm-modal v-if="showModal" @close="closeModal"></confirm-modal>
 </template>

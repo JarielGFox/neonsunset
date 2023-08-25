@@ -8,11 +8,11 @@
                 <div class="col-auto">
                     <div class="text-pink-light m-0"><em>Copyright &copy; Giovanni Crudele 2023</em></div>
                 </div>
-                <div class="col-auto">
-                    <a class="nav-item" href="#!">Privacy</a>
-                    <span class="mx-1">&middot;</span>
-                    <a class="nav-item" href="#!">Terms</a>
-                    <span class="mx-1">&middot;</span>
+                <div class="col-auto text-pink">
+                    <span class="nav-item" href="#!">Privacy</span>
+                    <span class="text-pink-light mx-1">&middot;</span>
+                    <span class="nav-item" href="#!">Terms</span>
+                    <span class="text-pink-light mx-1">&middot;</span>
                     <a class="nav-item" href="/contacts">Contact</a>
                 </div>
             </div>

@@ -27,7 +27,7 @@ export default {
                             <a href="mailto:crudelegio@gmail.com" target="_blank">crudelegio@gmail.com</a>
                         </span>
                     </div>
-                    <!-- Fare il form funzionante col back-end -->
+                    <!-- Form con phpMailer -->
                     <MailForm />
                 </div>
             </div>

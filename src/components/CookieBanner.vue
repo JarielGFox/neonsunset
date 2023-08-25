@@ -28,9 +28,9 @@ export default {
 
 <template>
     <div v-if="showBanner" class="cookie-banner">
-        <p>Questo sito utilizzia cookie per finalità di navigazione. Il rifiuto del consenso può rendere non
-            disponibili alcune delle relative funzioni. Premi il pulsante “Accetta” per acconsentire o premi il pulsante
-            “Rifiuta” per continuare senza accettare.</p>
+        <p class="fs-5">Questo sito utilizza cookie per finalità di navigazione. Il rifiuto del consenso può rendere non
+            disponibili alcune delle relative funzioni. Premi il pulsante <span class="text-warning">Accetta</span> per
+            acconsentire o premi il pulsante <span class="text-warning">Rifiuta</span> per continuare senza accettare.</p>
         <button @click="onCookieClick">Accetta</button>
         <button @click="onCookieClick">Rifiuta</button>
     </div>
@@ -55,8 +55,8 @@ export default {
 
 button {
     padding: 8px;
-    background-color: #ffffff;
-    color: #494949;
+    background-color: #f54949;
+    color: #f3eded;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 4px;
