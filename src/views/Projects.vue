@@ -28,7 +28,7 @@ export default {
                                         (su un altro dispositivo, usando l'applicazione). Utilizza React come tecnologia e
                                         non è provvista di backend (sfrutta la localStorage) <span
                                             class="text-pink fw-bold">Provala qui -></span> <a
-                                            href="https://http://neonsunset.altervista.org/react/notepad-app/"
+                                            href="https://neonsunset.altervista.org/react/notepad-app/"
                                             target="_blank">Reactive Notes</a>
                                     </p>
                                 </div>
@@ -115,7 +115,7 @@ export default {
                                     </p>
                                     <p>
                                         <span class="text-pink fw-bold">Provala qui -></span>
-                                        <a href=" https://neonsunset.altervista.org/pwa/wforecast/" target="_blank">Weather
+                                        <a href="https://neonsunset.altervista.org/pwa/wforecast/" target="_blank">Weather
                                             Forecast
                                         </a>
                                     </p>
