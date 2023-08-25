@@ -1,7 +1,33 @@
 <script>
+import B from './typography/img/B.svg';
+import CS from './typography/img/CS.svg';
+import H from './typography/img/H.svg';
+import J from './typography/img/J.svg';
+import L from './typography/img/L.svg';
+import M from './typography/img/M.svg';
+import P from './typography/img/P.svg';
+import RE from './typography/img/RE.svg';
+import SA from './typography/img/SA.svg';
+import V from './typography/img/V.svg';
+
 import ResumeTitle from '../resume/typography/ResumeTitle.vue';
 
+
 export default {
+    data() {
+        return {
+            B,
+            CS,
+            H,
+            J,
+            L,
+            M,
+            P,
+            RE,
+            SA,
+            V,
+        };
+    },
     components: { ResumeTitle }
 }
 
@@ -65,19 +91,19 @@ export default {
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img src="src\assets\img\html5.svg" class="me-1" width="30" height="30" />
+                                <img :src="H" class="me-1" width="30" height="30" />
                                 HTML
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img src="src\assets\img\css3.svg" class="me-1" width="30" height="30" />
+                                <img :src="CS" class="me-1" width="30" height="30" />
                                 CSS
                             </div>
                         </div>
                         <div class="col">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img src="src\assets\img\js.svg" class="me-1" width="30" height="30" />
+                                <img :src="J" class="me-1" width="30" height="30" />
                                 JavaScript
                             </div>
                         </div>
@@ -85,19 +111,19 @@ export default {
                     <div class="row row-cols-1 row-cols-md-3">
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img src="src\assets\img\sass.svg" class="me-1" width="30" height="30" />
+                                <img :src="SA" class="me-1" width="30" height="30" />
                                 SASS
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img src="src\assets\img\php.svg" class="me-1" width="30" height="30" />
+                                <img :src="P" class="me-1" width="30" height="30" />
                                 PHP
                             </div>
                         </div>
                         <div class="col">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img src="src\assets\img\mysql.svg" class="me-1" width="30" height="30" />
+                                <img :src="M" class="me-1" width="30" height="30" />
                                 MySQL
                             </div>
                         </div>
@@ -113,25 +139,25 @@ export default {
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img src="src\assets\img\Laravel.svg" class="me-1" width="30" height="30" />
+                                <img :src="L" class="me-1" width="30" height="30" />
                                 Laravel
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img src="src\assets\img\Vue.svg" class="me-1" width="30" height="30" />
+                                <img :src="V" class="me-1" width="30" height="30" />
                                 Vue.js
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img src="src\assets\img\react.svg" class="me-1" width="30" height="30" />
+                                <img :src="RE" class="me-1" width="30" height="30" />
                                 React
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img src="src\assets\img\Bootstrap.svg" class="me-1" width="30" height="30" />
+                                <img :src="B" class="me-1" width="30" height="30" />
                                 Bootstrap
                             </div>
                         </div>
