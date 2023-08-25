@@ -27,9 +27,9 @@ export default {
               nel campo dello sviluppo web. Dotato di conoscenza approfondita della lingua Inglese per poter lavorare nel
               mercato internazionale.</p>
             <div class="d-flex w-100 gap-3 justify-content-center fs-2">
-              <a class="text-sea d-block" href="https://linkedin.com/in/giocrudele" target="_blank"><i
+              <a class="text-sea d-block" href="https://linkedin.com/in/giocrudele" title="Linkedin" target="_blank"><i
                   class="bi bi-linkedin"></i></a>
-              <a class="text-sea d-block" href="https://github.com/JarielGFox" target="_blank"><i
+              <a class="text-sea d-block" href="https://github.com/JarielGFox" title="Github" target="_blank"><i
                   class="bi bi-github"></i></a>
             </div>
           </div>

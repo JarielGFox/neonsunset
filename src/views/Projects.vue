@@ -16,6 +16,26 @@ export default {
             </div>
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 0-->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-bolder">Reactive Notes</h2>
+                                    <p>Una web app che permette di conservare note personali nella propria cronologia del
+                                        browser. Consente di ordinare le note in base a tre opzioni, modificare le note in
+                                        base alle proprie esigenze, esportare le proprie note e successivamente importarle
+                                        (su un altro dispositivo, usando l'applicazione). Utilizza React come tecnologia e
+                                        non è provvista di backend (sfrutta la localStorage) <span
+                                            class="text-pink fw-bold">Provala qui -></span> <a
+                                            href="https://http://neonsunset.altervista.org/react/notepad-app/"
+                                            target="_blank">Reactive Notes</a>
+                                    </p>
+                                </div>
+                                <img class="img-fluid" src="../assets/img/reactivenotes.png" alt="..." />
+                            </div>
+                        </div>
+                    </div>
                     <!-- Project Card 1-->
                     <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                         <div class="card-body p-0">

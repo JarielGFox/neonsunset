@@ -1,5 +1,6 @@
 <script>
 import axios from 'axios';
+import ConfirmModal from "./ConfirmModal.vue";
 
 export default {
     data() {
@@ -10,13 +11,18 @@ export default {
             message: '',
             submitSuccess: false,
             submitError: false,
-            errorMessage: ''
+            errorMessage: '',
+            showModal: false
         }
+    },
+    components: {
+        //modale di conferma a mail inviata
+        ConfirmModal,
     },
     methods: {
         async submitForm() {
             // post form submitted
-            console.log('Submitting form...');
+            // console.log('Submitting form...');
             try {
                 const formData = new FormData();
                 formData.append('name', this.name);
@@ -26,18 +32,19 @@ export default {
 
                 const response = await axios.post('http://localhost:8000/src/php/mail2.php', formData);
                 //responso a buon fine
-                console.log('Response received:', response);
+                // console.log('Response received:', response);
 
-                if (response.data === 'Message has been sent') {
-                    this.submitSuccess = true;
-                } else {
-                    this.submitError = true;
+                if (response.data.includes('Message has been sent')) {
+                    this.showModal = true;
                 }
             } catch (error) {
                 // messaggio di errore
                 console.error('Error:', error);
                 this.submitError = true;
             }
+        },
+        closeModal() {
+            this.showModal = false;
         }
     }
 }
@@ -92,6 +99,9 @@ export default {
             </form>
         </div>
     </div>
+
+    <!-- Confirm Modal -->
+    <confirm-modal v-if="showModal" @close="closeModal"></confirm-modal>
 </template>
 
 <style></style>
