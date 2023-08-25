@@ -13,7 +13,7 @@
                     <span class="text-pink-light mx-1">&middot;</span>
                     <span class="nav-item" href="#!">Terms</span>
                     <span class="text-pink-light mx-1">&middot;</span>
-                    <a class="nav-item" href="/contacts">Contact</a>
+                    <a class="nav-item" href="/contacts">Contacts</a>
                 </div>
             </div>
         </div>

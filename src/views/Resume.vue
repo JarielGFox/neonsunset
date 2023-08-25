@@ -18,7 +18,7 @@ export default {
 
 <template>
     <div class="container px-5 my-5">
-        <div class="text-center mb-5">
+        <div class="text-center mb-3">
             <h1 class="display-5 fw-bolder mb-0"><span class="text-light">Competenze</span></h1>
         </div>
         <div class="row gx-5 justify-content-center">
@@ -26,13 +26,13 @@ export default {
                 <!-- Work Section-->
                 <section>
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <ResumeTitle class="mb-0" title="Esperienze" />
+                        <ResumeTitle class="mb-4" title="Esperienze" />
                         <!-- Link al cv-->
                         <a class="btn btn-cv btn-cta fs-6"
                             href="https://www.canva.com/design/DAE94LaqBAQ/NkxIeJRMhdnLVBF7h952dA/view?utm_content=DAE94LaqBAQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
                             target="_blank">
                             <div class="d-inline-block bi bi-download me-2"></div>
-                            Visualizza Curriculum
+                            Download CV
                         </a>
                     </div>
                 </section>

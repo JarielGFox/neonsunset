@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'; // Importing Bootstrap CSS directly
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './assets/main.css'; // Importing main.css only once
 

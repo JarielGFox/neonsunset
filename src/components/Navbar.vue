@@ -34,7 +34,5 @@ export default {
 <style scoped>
 nav {
     background-color: #1a0d2c;
-    /* -webkit-box-shadow: 0px 0px 35px -3px #982AA3;
-    box-shadow: 0px 0px 35px -3px #982AA3; */
 }
 </style>
