@@ -15,10 +15,9 @@ export default {
 
 <template>
     <div id="home">
-        <Header></Header>
-        <About></About>
+        <Header />
+        <About />
     </div>
 </template>
 
-<style>
-</style>
+<style></style>

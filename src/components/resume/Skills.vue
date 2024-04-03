@@ -9,6 +9,7 @@ import P from './typography/img/P.svg';
 import RE from './typography/img/RE.svg';
 import SA from './typography/img/SA.svg';
 import V from './typography/img/V.svg';
+import TW from './typography/img/TW.svg';
 
 import ResumeTitle from '../resume/typography/ResumeTitle.vue';
 
@@ -26,6 +27,7 @@ export default {
             RE,
             SA,
             V,
+            TW
         };
     },
     components: { ResumeTitle }
@@ -44,7 +46,8 @@ export default {
                     <div class="d-flex align-items-center mb-4">
                         <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i
                                 class="bi bi-tools"></i></div>
-                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Competenze Attitudinali</span></h3>
+                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Competenze Attitudinali</span>
+                        </h3>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                         <div class="col mb-4 mb-md-0">
@@ -86,24 +89,25 @@ export default {
                     <div class="d-flex align-items-center mb-4">
                         <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i
                                 class="bi bi-code-slash"></i></div>
-                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Linguaggi e Tecnologie</span></h3>
+                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Linguaggi e Tecnologie</span>
+                        </h3>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img :src="H" class="me-1" width="30" height="30" />
+                                <img :src="H" class="me-1" width="30" height="30" alt="HTML" title="HTML" />
                                 HTML
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img :src="CS" class="me-1" width="30" height="30" />
+                                <img :src="CS" class="me-1" width="30" height="30" alt="CSS" title="CSS" />
                                 CSS
                             </div>
                         </div>
                         <div class="col">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img :src="J" class="me-1" width="30" height="30" />
+                                <img :src="J" class="me-1" width="30" height="30" alt="JavaScript" title="JavaScript" />
                                 JavaScript
                             </div>
                         </div>
@@ -111,19 +115,19 @@ export default {
                     <div class="row row-cols-1 row-cols-md-3">
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img :src="SA" class="me-1" width="30" height="30" />
+                                <img :src="SA" class="me-1" width="30" height="30" alt="SASS" title="SASS" />
                                 SASS
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img :src="P" class="me-1" width="30" height="30" />
+                                <img :src="P" class="me-1" width="30" height="30" alt="PHP" title="PHP" />
                                 PHP
                             </div>
                         </div>
                         <div class="col">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img :src="M" class="me-1" width="30" height="30" />
+                                <img :src="M" class="me-1" width="30" height="30" alt="MySQL" title="MySQL" />
                                 MySQL
                             </div>
                         </div>
@@ -134,31 +138,38 @@ export default {
                     <div class="d-flex align-items-center mb-4">
                         <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i
                                 class="bi bi-braces"></i></div>
-                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Frameworks e Librerie</span></h3>
+                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Frameworks e Librerie</span>
+                        </h3>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img :src="L" class="me-1" width="30" height="30" />
+                                <img :src="L" class="me-1" width="30" height="30" alt="Laravel" title="Laravel" />
                                 Laravel
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img :src="V" class="me-1" width="30" height="30" />
+                                <img :src="V" class="me-1" width="30" height="30" alt="Vue.js" title="Vue.js" />
                                 Vue.js
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img :src="RE" class="me-1" width="30" height="30" />
+                                <img :src="RE" class="me-1" width="30" height="30" alt="React" title="React" />
                                 React
                             </div>
                         </div>
-                        <div class="col mb-4 mb-md-0">
+                        <div class="col mb-4 mt-4 mb-md-0">
                             <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                <img :src="B" class="me-1" width="30" height="30" />
+                                <img :src="B" class="me-1" width="30" height="30" alt="Bootstrap" title="Bootstrap" />
                                 Bootstrap
+                            </div>
+                        </div>
+                        <div class="col mb-4 mt-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img :src="TW" class="me-1" width="30" height="30" alt="Tailwind" title="Tailwind" />
+                                Tailwind
                             </div>
                         </div>
                     </div>
@@ -169,4 +180,3 @@ export default {
 </template>
 
 <style></style>
-
