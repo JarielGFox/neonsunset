@@ -28,8 +28,8 @@
                     <!-- Header picture-->
                     <div class="d-flex justify-content-center mt-5 mt-xxl-0">
                         <div class="profile bg-gradient-primary-to-secondary">
-                            <img class="profile-img img-fluid" src="../assets/img/synthlaptop.png" width="500" height="500"
-                                alt="..." />
+                            <img class="profile-img img-fluid rounded" src="../assets/img/synthlaptop.png" width="500"
+                                height="500" alt="..." />
                         </div>
                     </div>
                 </div>

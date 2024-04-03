@@ -14,10 +14,10 @@ export default {
 </script>
 
 <template>
-    <div id="home">
+    <main class="min-vh-100">
         <Header />
         <About />
-    </div>
+    </main>
 </template>
 
 <style></style>

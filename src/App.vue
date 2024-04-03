@@ -17,7 +17,7 @@ export default {
 </script>
 
 <template>
-   <div id="app">
+   <div id="app" class="min-vh-100">
       <Navbar />
       <router-view />
       <Footer />
@@ -25,5 +25,4 @@ export default {
    </div>
 </template>
 
-<style>
-</style>
+<style></style>
