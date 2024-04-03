@@ -35,16 +35,84 @@ export default {
                                 <div class="d-flex align-items-center">
                                     <div class="p-5">
                                         <h2 class="fw-bolder">React Basics</h2>
-                                        <p>Lorem ipsum mare fuori bau bau.
+                                        <p>Single Page Application sviluppata per familiarizzare con i concetti base di
+                                            React. Il progetto presenta una struttura organizzata atta a comprendere
+                                            l'alberatura dei componenti, vi è l'utilizzo di concetti chiave tra cui le
+                                            props, lo la gestione dello stato (tramite lo hook useState) e la logica
+                                            della riusabilità dei componenti.
                                             <span class="text-pink fw-bold">Visualizza repository -></span> <a
                                                 href="https://github.com/JarielGFox/react_basics/"
                                                 target="_blank">Reactive Basics</a>
                                         </p>
                                     </div>
-                                    <img class="img-fluid" src="../assets/img/reactivenotes.png" alt="..." />
+                                    <img class="img-fluid w-50" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
+                                        alt="..." />
                                 </div>
                             </div>
                         </div>
+
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Reactive Investments</h2>
+                                        <p>Single Page Application sviluppata per simulare un piano investimenti.
+                                            L'utente inserisce un ammontare di denaro iniziale e una percentuale di
+                                            interesse. Il sistema calcola il valore di investimento in base al tempo
+                                            trascorso e lo restituisce all'utente.
+                                            <span class="text-pink fw-bold">Visualizza repository -></span> <a
+                                                href="https://github.com/JarielGFox/investment_planner"
+                                                target="_blank">Reactive Investments</a>
+                                        </p>
+                                    </div>
+                                    <img class="img-fluid w-50" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
+                                        alt="..." />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 1 2024 -->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">React Quiz Time</h2>
+                                        <p>Piccola web app che simula un quiz a tempo sulle nozioni basilari di React.
+                                            Progetto di metà corso, sfrutta i concept base di hooks come useState,
+                                            useRef ed useEffect.
+                                            <span class="text-pink fw-bold">Visualizza repository -></span> <a
+                                                href="https://github.com/JarielGFox/react_quiz_time/"
+                                                target="_blank">React Quiz Time</a>
+                                        </p>
+                                    </div>
+                                    <img class="img-fluid w-50" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
+                                        alt="..." />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 2 2024 -->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">React Food App</h2>
+                                        <p>Un'applicazione web intuitiva che simula una pagina food ordering, basata su
+                                            React. Gli utenti possono selezionare il proprio prodotto, aggiungerlo al
+                                            carrello, e procedere all'ordine. L'applicazione ha anche una lista di
+                                            ordinazioni completa di facile tracciamento e gestione. Sfrutta hooks come
+                                            useReducer, useEffect ed useRef per le modali.
+                                            <span class="text-pink fw-bold">Visualizza repository -></span> <a
+                                                href="https://github.com/JarielGFox/food_order_app/"
+                                                target="_blank">React Food order App</a>
+                                        </p>
+                                    </div>
+                                    <img class="img-fluid w-50" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
+                                        alt="..." />
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
