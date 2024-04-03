@@ -2,10 +2,10 @@
 </script>
 
 <template>
-    <header class="py-5">
-        <div class="container px-5 pb-5">
+    <header class="py-3">
+        <div class="container px-3 pb-5">
             <div class="row gx-5 align-items-center">
-                <div class="col-xxl-5">
+                <div class="col-lg-5">
                     <!-- Header text content-->
                     <div class="text-center text-xxl-start">
                         <div class="badge badge-sea text-white mb-4">
@@ -18,18 +18,18 @@
                                 journey</span></h1>
                         <div class="grid gap-3 justify-content-sm-stretch justify-content-xxl-start mb-3">
                             <router-link :to="{ name: 'resume' }"
-                                class="btn btn-cta btn-lg px-5 py-3 fs-6 fw-bolder mb-3 mb-sm-3 g-col-sm-6 g-col-sm-12">Competenze</router-link>
+                                class="btn btn-cta btn px-5 py-3 fs-6 fw-bolder mb-3 mb-sm-3 g-col-sm-6 g-col-sm-12">Competenze</router-link>
                             <router-link :to="{ name: 'projects' }"
-                                class="btn btn-cta btn-lg px-5 py-3 fs-6 fw-bolder g-col-sm-6 g-col-sm-12">Progetti</router-link>
+                                class="btn btn-cta btn px-5 py-3 fs-6 fw-bolder g-col-sm-6 g-col-sm-12">Progetti</router-link>
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-7">
+                <div class="col-lg-7">
                     <!-- Header picture-->
-                    <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                    <div class="d-flex justify-content-center mt-2 mt-xxl-0">
                         <div class="profile bg-gradient-primary-to-secondary">
-                            <img class="profile-img img-fluid rounded" src="../assets/img/synthlaptop.png" width="500"
-                                height="500" alt="..." />
+                            <img class="profile-img img-fluid rounded" src="../assets/img/synthlaptop.png" width="350"
+                                height="350" alt="..." />
                         </div>
                     </div>
                 </div>

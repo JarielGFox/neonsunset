@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-    <main class="min-vh-100">
+    <main>
         <Header />
         <About />
     </main>
