@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <header class="py-3">
+    <header class="py-1">
         <div class="container px-3 pb-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-5">
