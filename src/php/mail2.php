@@ -1,5 +1,15 @@
 <?php
-include 'includes/includes.php';
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST");
+header("Access-Control-Allow-Headers: Content-Type");
+
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
+
+// print_r(__DIR__ . '/vendor/autoload.php');
+
+require './vendor/autoload.php';
 require_once 'class/mailer.class.php';
 
 use Dotenv\Dotenv;

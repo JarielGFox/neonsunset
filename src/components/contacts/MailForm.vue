@@ -30,7 +30,7 @@ export default {
                 formData.append('phone', this.phone);
                 formData.append('message', this.message);
 
-                const response = await axios.post('/src/php/mail2.php', formData);
+                const response = await axios.post('/mail2.php', formData);
                 //responso a buon fine
                 // console.log('Response received:', response);
 
@@ -94,7 +94,8 @@ export default {
                     <div class="text-center text-danger mb-3">{{ errorMessage }}</div>
                 </div>
                 <!-- Submit Button-->
-                <div class="d-grid"><button class="btn btn-success btn-lg" id="submitButton" type="submit">Submit</button>
+                <div class="d-grid"><button class="btn btn-success btn-lg" id="submitButton"
+                        type="submit">Submit</button>
                 </div>
             </form>
         </div>
