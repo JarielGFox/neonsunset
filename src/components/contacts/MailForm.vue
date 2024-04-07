@@ -30,7 +30,7 @@ export default {
                 formData.append('phone', this.phone);
                 formData.append('message', this.message);
 
-                const response = await axios.post('/php/mail2.php', formData, {
+                const response = await axios.post('https://neonsunset.000webhostapp.com/php/mail2.php', formData, {
                     headers: {
                         'Content-Type': 'multipart/form-data',
                     }
