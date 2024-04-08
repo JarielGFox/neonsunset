@@ -7,7 +7,7 @@
         <div class="card shadow border-0 rounded-4 mb-5">
             <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
-                    <div class="col text-left fs-5 mb-4 mb-lg-0">
+                    <div class="col text-justify fs-5 mb-4 mb-lg-0">
                         <div class="bg-light p-4 rounded-4">
                             <div class="text-primary fw-bolder mb-2">Mag 2023 - Presente</div>
                             <div class="small fw-bolder">Junior Web Developer</div>

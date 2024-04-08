@@ -9,13 +9,15 @@ export default {
 
 <template>
     <!-- Projects Section-->
-    <section class="py-5">
-        <div class="container px-5 mb-5">
+    <section class="py-1">
+        <div class="container px-5 mb-3">
 
             <!-- Titolo Section -->
             <div class="text-center mb-5">
                 <h1 class="display-5 fw-bolder mb-0"><span class="text-pink-light d-inline">Progetti</span></h1>
+                <div class="text-light fs-5 mb-5">(Cliccare sui bottoni per espandere le sezioni)</div>
             </div>
+
 
             <!-- Collapse button 2024 -->
             <p class="d-flex justify-content-center gap-1">
@@ -282,7 +284,7 @@ export default {
     </section>
 
     <!-- Call to action section-->
-    <section class="py-5">
+    <section class="py-1">
         <div class="container px-5">
             <div class="text-center">
                 <h4 class="display-4 fw-bolder mb-4 text-pink-light">Vuoi saperne di più?</h4>

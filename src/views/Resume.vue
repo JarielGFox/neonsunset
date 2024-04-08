@@ -20,6 +20,7 @@ export default {
     <div class="container px-5 my-5">
         <div class="text-center mb-3">
             <h1 class="display-5 fw-bolder mb-0"><span class="text-light">Curriculum Vitae</span></h1>
+            <div class="text-light fs-5 mb-5">(Cliccare sui bottoni per espandere le sezioni)</div>
         </div>
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-12 col-xl-12 col-xxl-12">

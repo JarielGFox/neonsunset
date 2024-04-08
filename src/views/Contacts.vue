@@ -14,7 +14,7 @@ export default {
 
 <template>
     <section class="py-0">
-        <div class="container-md px-5">
+        <div class="container-lg px-3">
             <!-- Contact Section-->
             <div class="bg-light rounded-4 py-3 px-4 px-md-2">
                 <div class="text-center mb-3">
