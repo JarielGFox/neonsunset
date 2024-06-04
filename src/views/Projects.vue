@@ -49,8 +49,7 @@ export default {
                                                 target="_blank">New Account Manager (Work in Progress)</a>
                                         </p>
                                     </div>
-                                    <img class="img-fluid w-50" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
-                                        alt="..." />
+                                    <img class="img-fluid w-50" src="../assets/img/accountmanager.png" alt="..." />
                                 </div>
                             </div>
                         </div>
@@ -59,7 +58,7 @@ export default {
                             <div class="card-body p-0">
                                 <div class="d-flex align-items-center">
                                     <div class="p-5">
-                                        <h2 class="fw-bolder">React Basics</h2>
+                                        <h2 class="fw-bolder">React Essentials</h2>
                                         <p>Single Page Application sviluppata per familiarizzare con i concetti base di
                                             React. Il progetto presenta una struttura organizzata atta a comprendere
                                             l'alberatura dei componenti, vi è l'utilizzo di concetti chiave tra cui le
@@ -67,11 +66,10 @@ export default {
                                             della riusabilità dei componenti.
                                             <span class="text-pink fw-bold">Visualizza repository -></span> <a
                                                 href="https://github.com/JarielGFox/react_basics/"
-                                                target="_blank">Reactive Basics</a>
+                                                target="_blank">Reactive Essentials</a>
                                         </p>
                                     </div>
-                                    <img class="img-fluid w-50" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
-                                        alt="..." />
+                                    <img class="img-fluid w-50" src="../assets/img/reactessentials.jpg" alt="..." />
                                 </div>
                             </div>
                         </div>
@@ -80,7 +78,7 @@ export default {
                             <div class="card-body p-0">
                                 <div class="d-flex align-items-center">
                                     <div class="p-5">
-                                        <h2 class="fw-bolder">Reactive Investments</h2>
+                                        <h2 class="fw-bolder">Investment Planner</h2>
                                         <p>Single Page Application sviluppata per simulare un piano investimenti.
                                             L'utente inserisce un ammontare di denaro iniziale e una percentuale di
                                             interesse. Il sistema calcola il valore di investimento in base al tempo
@@ -90,8 +88,7 @@ export default {
                                                 target="_blank">Reactive Investments</a>
                                         </p>
                                     </div>
-                                    <img class="img-fluid w-50" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
-                                        alt="..." />
+                                    <img class="img-fluid w-50" src="../assets/img/investplanner.jpg" alt="..." />
                                 </div>
                             </div>
                         </div>
@@ -110,8 +107,7 @@ export default {
                                                 target="_blank">React Quiz Time</a>
                                         </p>
                                     </div>
-                                    <img class="img-fluid w-50" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
-                                        alt="..." />
+                                    <img class="img-fluid w-50" src="../assets/img/reactquiz.jpg" alt="..." />
                                 </div>
                             </div>
                         </div>
@@ -132,8 +128,7 @@ export default {
                                                 target="_blank">React Food order App</a>
                                         </p>
                                     </div>
-                                    <img class="img-fluid w-50" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
-                                        alt="..." />
+                                    <img class="img-fluid w-50" src="../assets/img/foodorderapp.jpg" alt="..." />
                                 </div>
                             </div>
                         </div>
