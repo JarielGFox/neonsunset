@@ -26,7 +26,8 @@ export default {
               innovative.
               Possiedo una solida base nello sviluppo front-end e back-end, sfruttando competenze in tecnologie <span
                 class="text-pink"><strong> PHP, MySQL, JavaScript, HTML5, CSS3</strong></span> e conosco l'utilizzo di
-              framework e librerie tra cui <span class="text-pink"><strong>Vue.js e React </strong></span> per il
+              framework e librerie tra cui <span class="text-pink"><strong>Vue.js, ReactJS e jQuery </strong></span> per
+              il
               front-end, <span class="text-pink"><strong>Laravel PHP framework</strong></span> per il back-end.
               Dimostro abilità nel gestire progetti complessi e mi impegno per l'apprendimento continuo
               nel campo dello sviluppo web. Dotato di conoscenza <u>approfondita</u> della <strong>lingua

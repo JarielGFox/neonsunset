@@ -39,7 +39,7 @@ export default {
                             <ResumeTitle class="mb-4" title="Esperienze" />
                             <!-- Link al cv-->
                             <a class="btn btn-cv btn-cta fs-6"
-                                href="https://www.canva.com/design/DAE94LaqBAQ/NkxIeJRMhdnLVBF7h952dA/view?utm_content=DAE94LaqBAQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                                href="https://www.canva.com/design/DAGEisrFNkk/kfcYjqHWcKnm_fPhuu-ZWA/view?utm_content=DAGEisrFNkk&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                                 target="_blank">
                                 <div class="d-inline-block bi bi-download me-2"></div>
                                 Download CV

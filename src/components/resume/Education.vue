@@ -21,7 +21,7 @@ export default {
                                 <div class="small text-muted">CGM Consulting, Torino, IT</div>
                             </div>
                             <div class="fst-italic">
-                                <div class="small text-muted">Front end developingr</div>
+                                <div class="small text-muted">Front end developing</div>
                                 <div class="small text-muted">Corso formazione professionale</div>
                             </div>
                         </div>

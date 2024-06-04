@@ -32,6 +32,29 @@ export default {
                 <div class="col-lg-11 col-xl-9 col-xxl-8">
                     <div class="collapse" id="collapse2024">
                         <!-- Project Card 0 2024 -->
+
+                        <!-- Project Card 0 2024 -->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Account Manager</h2>
+                                        <p>Web App strutturata con front-end in ReactJS e backend in PHP (tramite
+                                            metodologia di programmazione ad oggetti) e MySQL come DB relazionale. Un
+                                            utente può iscriversi e creare un proprio account ed entrare all'interno di
+                                            una propria dashboard. Verrà inserito un sistema di ruoli ed un piccolo
+                                            backoffice per gestire le utente tramite un pannello di amministrazione.
+                                            <span class="text-pink fw-bold">Visualizza repository -></span> <a
+                                                href="https://github.com/JarielGFox/new-account-manager"
+                                                target="_blank">New Account Manager (Work in Progress)</a>
+                                        </p>
+                                    </div>
+                                    <img class="img-fluid w-50" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
+                                        alt="..." />
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                             <div class="card-body p-0">
                                 <div class="d-flex align-items-center">
